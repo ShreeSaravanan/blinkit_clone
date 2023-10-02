@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.vertical-line{
+    height: 50px;
+   border-left: 1px solid rgb(242,242,242);
+   padding-left: 10px;
+}
+
+
+.location :hover{
+    cursor: pointer;
+}
+.location>h5{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-family: 'Okra', Helvetica;
+    display: block;
+}
+
+.location>p{
+    margin-bottom: 0px;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-family: 'Okra', Helvetica;
+}
+.search-bar{
+    padding: 0px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    background-color: rgb(248,248,248);
+}
+.search-bar>input{
+    border: none;
+    background-color: rgb(248,248,248);
+    width: 30vw;
+    height: 45px;
+}
+
+::placeholder{
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}
+
+.my-categories{
+    width: 90%;
+}
+
+.my-container{
+    margin: 18px;
+    width: 100%;
+    overflow-x: scroll;
+
+}
+.my-list{
+    white-space: nowrap;
+}
+.my-list>img{
+    padding-inline: 8px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.my-card{
+    width: 179px;
+}
+
+.my-card-time{
+    width: fit-content;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+    font-family: 'Okra', Helvetica;  
+}
+.my-card-title{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+    font-family: 'Okra', Helvetica;
+    overflow-x: hidden; 
+}
+
+.my-card-weight{
+    color: #666;
+    font-size: 12px;
+    font-family: 'Okra', Helvetica;
+   
+}
+
+.my-card-price{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.category-section-row{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.category-section{
+    width: 97%;
+    margin: auto;
+}
+.section-1{
+    white-space: nowrap;
+}
+
+.footer{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
